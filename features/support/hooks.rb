@@ -1,4 +1,3 @@
 Before do
-    Services.new  
-
+   @services = Services.new  
 end
