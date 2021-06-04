@@ -1,6 +1,6 @@
 Então('os autores sao os do livro consultado') do
    
-    @response.each { |author| expect(author.['IDBook']).to eq(@book('ID'))}
+    @response.each { |author| expect(author['IDBook']).to eq(@book['ID']) }
 
   end
    
